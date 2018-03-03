@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="prtg.customlookups.vsan.status" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="None" value="0">
+        Unsupported
+      </SingleInt>
+      <SingleInt state="Ok" value="1">
+        Green
+      </SingleInt>
+      <SingleInt state="Warning" value="2">
+        Yellow
+      </SingleInt>
+      <SingleInt state="Error" value="3">
+        Red
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
